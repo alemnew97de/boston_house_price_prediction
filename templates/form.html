@@ -1,0 +1,76 @@
+<html>
+<body>
+<form action="{{url_for('prediction_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="CRIM">CRIM:</label>
+        <input type="text" id="CRIM" name="CRIM" placeholder="Enter crime rate value (float)">
+    </div>
+
+    <div class="form-group">
+        <label for="ZN">ZN:</label>
+        <input type="text" id="ZN" name="ZN" placeholder="Enter land_zone value (float)">
+    </div>
+
+    <div class="form-group">  
+        <label for="INDUS">INDUS:</label>
+        <input type="text" id="INDUS" name="INDUS" placeholder="Enter acres_per_town value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="CHAS">CHAS:</label>
+        <input type="text" id="CHAS" name="CHAS" placeholder="Enter charles_river value (int)">
+    </div>
+  
+    <div class="form-group">
+        <label for="NOX">NOX:</label>
+        <input type="text" id="NOX" name="NOX" placeholder="Enter nitric_oxides_concentrationvalue (float)">
+    </div>
+  
+    <div class="form-group">
+        <label for="RM">RM:</label>
+        <input type="text" id="RM" name="RM" placeholder="Enter number of rooms value (float)">
+    </div>
+    
+    <div class="form-group">
+        <label for="AGE">AGE:</label>
+        <input type="text" id="AGE" name="AGE" placeholder="Enter age value (float)">
+    </div>      
+
+    <div class="form-group">
+        <label for="DIS">DIS:</label>
+        <input type="text" id="DIS" name="DIS" placeholder="Enter weighted distances value (float)">
+    </div>      
+
+    <div class="form-group">
+        <label for="RAD">RAD:</label>
+        <input type="text" id="RAD" name="RAD" placeholder="Enter radial highways value (int)">
+    </div>      
+
+    <div class="form-group">
+        <label for="TAX">TAX:</label>
+        <input type="text" id="TAX" name="TAX" placeholder="Enter tax value (float)">
+    </div>      
+
+    <div class="form-group">
+        <label for="PTRATIO">PTRATIO:</label>
+        <input type="text" id="PTRATIO" name="PTRATIO" placeholder="Enter pupil teacher ratio by town value (float)">
+    </div>      
+
+    <div class="form-group">
+        <label for="B">B:</label>
+        <input type="text" id="B" name="B" placeholder="Enter proportion of blacks value (float)">
+    </div>      
+
+    <div class="form-group">
+        <label for="LSTAT">LSTAT:</label>
+        <input type="text" id="LSTAT" name="LSTAT" placeholder="Enter lower status of the population value (float)">
+    </div>      
+
+  </select>
+</div>
+
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
